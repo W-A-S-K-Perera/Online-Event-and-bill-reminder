@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/styledd.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="logo">
+        <img src="../images/logo1.png" alt="logo">
+        </div>
+    <!--Navigation bar starts here-->
+<header class="header">
+   
+    <div class="containerrr">
+        <div class="row align-items-center justify-content-between">
+            <div class="logo">
+               
+                <a href="../dashbord1.html">remind mee</a>
+            </div>
+            <button type="button" class="nav-toggler">
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul>
+                    <li><a href="dashbord1.html"class="active" >Dashboard</a></li>
+                    <li><a href="globalevents.html">global events</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                    <li><a href="../php/MyProfile.php">My Profile</a></li>
+                    <li><a href="Home.html" class="lbtn">log out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+ </header>
+    <!--Navigation bar ends here-->
+
+  
+    <!--grid items start here-->
+    <section class="dash" id="dash">
+
+        <div class="content">
+            <h5>its time to remind your <span> events and bills </span></h5>
+           
+        </div>
+        <div class="grid">
+            <div class="grid-items">
+                <div class="card">
+                    <img class="card-img" src="../images/img2.jpg" alt="event">
+                    <div class="card-content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <h1 class="card-header">Add Event</h1>
+                        <p class="card-text">You can easily add your event reminders with one tap with our page.Set reminders and get notification for upcoming enets. </p>
+                        <br>
+                        <a href="AddNewEvents.html" class="card-btn">Add Event</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="grid-items">
+                <div class="card">
+                    <img class="card-img" src="../images/img3.jpg" alt="bill">
+                    <div class="card-content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <h1 class="card-header">Add Bill</h1>
+                        <p class="card-text">You can easily add your bill reminders with one tap with our page.Set reminders and get notification for upcoming bills. </p>
+                        <br>
+                        <a href="AddNewBills.html" class="card-btn">Add Bill</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--calander section start here-->
+        <div class="container">
+            <div class="calendar">
+              <div class="month">
+                <i class="fas fa-angle-left prev"></i>
+                <div class="date">
+                  <h1></h1>
+                  <p></p>
+                </div>
+                <i class="fas fa-angle-right next"></i>
+              </div>
+              <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+              </div>
+              <div class="days"></div>
+            </div>
+        </div>
+        
+    </section>
+
+     <!--footer section starts here-->
+  <div>
+    <footer class="footer">
+       <div class="containerr">
+          <div class="row">
+             <div class="footer-col">
+                <h4>Company</h4>
+                <span class="underline"></span>
+                <ul>
+                    <li><a href="AboutUs.html">about us</a></li>
+                   <li><a href="Feedback.html">Feedback</a></li>
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>get help</h4>
+                <span class="underline"></span>
+                <ul>
+                    <li><a href="Faq.html">FAQ</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>quick links</h4>
+                <span class="underline"></span>
+                <ul>
+                   <li><a href="AddNewEvents.html">Add New Events</a></li>
+                   <li><a href="AddNewBills.html">Add New Bills</a></li>
+                   <li><a href="globalevents.html">Global Events</a></li>
+                   
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>follow us</h4>
+                <span class="underline"></span>
+                <div class="social-links">
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+             </div>
+ 
+          </div>
+       </div>
+    </footer>
+ </div>
+</body>
+<script src="../js/dashboard1.js"></script>
+</html>

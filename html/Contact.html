@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"><img src="../images/Remindmee_3.png" alt="" width="60px"></div>
+
+    <!--Navigation bar starts here-->
+<header class="header">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="logo">
+                <a href="Dashboard.html">Remind mee</a>
+            </div>
+            <button type="button" class="nav-toggler">
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul>
+                    <li><a href="Home.html" >home</a></li>
+                    <li><a href="../php/Myprofile.php" >my profile</a></li>
+                    <li><a href="globalevents.html">global events</a></li>
+                    <li><a href="Contact.html" class="active">contact us</a></li>
+                    <li><a href="" class="lbtn">log out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+ </header>
+    <!--Navigation bar ends here-->
+
+    <!--Contaact us form starts here-->
+ <form method="post" action="submitinfo.php">
+    <div class="contactUs">
+        <div class="title">
+            <h2>Help & Support</h2>
+        </div>
+        <div class="box">
+            <!--Form-->
+            <div class="contact form">
+                <h3>Send a Message</h3>
+                <form>
+                    <div class="formBox">
+                        <div class="row1">
+                            <div class="inputBox">
+                                <span>First Name</span>
+                                <input type="text" placeholder="First Name" name="Fname"/>
+                            </div>
+                            <div class="inputBox">
+                                <span>Last Name</span>
+                                <input type="text" placeholder="Last Name" name="Lname"/>
+                            </div>
+                        </div>
+
+
+                        <div class="row1">
+                            <div class="inputBox">
+                                <span>Email</span>
+                                <input type="text" placeholder="Email" name="Email"/>
+                            </div>
+                            <div class="inputBox">
+                                <span>Mobile</span>
+                                <input type="text" placeholder="phone number" name="Mobile"/>
+                            </div>
+                        </div>
+
+
+                            <div class="row2">
+                                <div class="inputBox">
+                                    <span>Message</span>
+                                    <textarea type="text" placeholder="Message" name="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="inputBox">
+                                    <input type="submit" value="Save">
+                                </div>
+                            </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--Info box-->
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                    <div>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <p>New Kandy road <br>Malabe</p>
+                   </div>
+                   <div>
+                    <span><i class="fa fa-envelope" ></i></span>
+                    <a href="https://www.sliit.lk">info@sliit.lk</a>
+                   </div>
+                   <div>
+                    <span><i class="fa fa-phone" ></i></span>
+                    <a href="+94 11 255 255">+94 11 255 255</a>
+                   </div>
+                </div>
+                <div class="social">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><a href="#"><i class="fab fa-twitter"></i></a></a></li>
+                <li><a href=""><a href="#"><i class="fab fa-linkedin-in"></i></a></a></li>
+                </div>
+            </div>
+
+            <!--Map-->
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798467112146!2d79.97075581426778!3d6.914682820411594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256db1a6771c5%3A0x2c63e344ab9a7536!2sSri%20Lanka%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2slk!4v1652545415245!5m2!1sen!2slk"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+        </div>
+    </div>
+    </form>
+<!--contact us form ends here-->
+
+   <!--footer section starts here-->
+   <div>
+    <footer class="footer">
+       <div class="container">
+          <div class="row">
+             <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                   <li><a href="AboutUs.html">about us</a></li>
+                   <li><a href="Feedback.html">feedback</a></li>
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                   <li><a href="FAQ.html">FAQ</a></li>
+                   <li><a href="Contact.html">Contact us</a></li>
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>quick links</h4>
+                <ul>
+                   <li><a href="AddNewEvents.html">add new events</a></li>
+                   <li><a href="AddNewBills.html">add new bills</a></li>
+                   <li><a href="globalevents.html">global events</a></li>
+                </ul>
+             </div>
+             <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+             </div>
+ 
+          </div>
+       </div>
+    </footer>
+ </div>
+    <!--footer section ends here-->
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

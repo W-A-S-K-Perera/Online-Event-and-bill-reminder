@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/sithija.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="../js/sithija.js" defer></script>
+    </head>
+    <body>
+
+        <div class="logo"><img src="../images/Remindmee.png" alt=""></div>
+        <!--Navigation bar starts here-->
+        <header class="header">
+            
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="logo">
+                    
+                        <a href="dashbord.html">remind mee</a>
+                    </div>
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="dashbord.html">Dashboard</a></li>
+                            <li><a href="globalevents.html">global events</a></li>
+                            <li><a href="Contact.html">contact us</a></li>
+                            <li><a href="../php/MyProfile.php">My profile</a></li>
+                            <li><a href="Home.html" class="lbtn">log out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--navigation bar ends here-->
+        <!--Feedback section start here-->
+        <section class="feedb" id="book">
+
+            <h1 class="rech">
+                <span>Y</span>
+                <span>o</span>
+                <span>u</span>
+                <span>r</span>
+                <span class="space"></span>
+                <span>F</span>
+                <span>e</span>
+                <span>e</span>
+                <span>d</span>
+                <span>b</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+
+            </h1>
+    
+            <div class="fbform">
+    
+                <div class="empty">
+                    
+                </div>
+    
+                <form method="post" action="../php/submitFeedback.php">
+
+                    <div class="databox">
+                        <h3>Enter your User code</h3>
+                        <input type="text" placeholder="user code" name="code" required>
+                    </div>
+    
+                    <div class="databox" >
+                        <h3>Rate us</h3>
+                        
+                        <input type="number" min="1" max="5" placeholder="1-poor 5-Excellent" name="ratings">
+                    </div>
+                    
+                    <div class="suggest">
+                        <h3>Tell us what you think</h3>
+                        <textarea name="suggestions" rows="6" required></textarea>
+                    </div>
+                  
+                    <input type="submit" class="btn" value="Submit Feedback">
+    
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <!--footer starts here-->
+        <div>
+            <footer class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="footer-col">
+                        <h4>Company</h4> 
+                        <span class="ira"></span>
+                        <ul>
+                           <li><a href="AboutUs.html">about us</a></li>
+                           
+                          
+                           <li><a href="#" class="active">Feedback</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer-col">
+                        <h4>get help</h4>
+                        <span class="ira"></span>
+                        <ul>
+                           <li><a href="FAQ.html">FAQ</a></li>
+                           <li><a href="Contact.html">Contact us</a></li>
+                           
+                        </ul>
+                     </div>
+                     <div class="footer-col">
+                        <h4>quick links</h4>
+                        <span class="ira"></span>
+                        <ul>
+                           <li><a href="AddNewEvents.html">Add new events</a></li>
+                           <li><a href="AddNewBills.html">Add new bills</a></li>
+                           <li><a href="globalevents.html">Global events</a></li>
+                           
+                        </ul>
+                     </div>
+                     <div class="footer-col">
+                        <h4>follow us</h4>
+                        <span class="ira"></span>
+                        <div class="social-links">
+                           <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-twitter"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                     </div>
+         
+                  </div>
+               </div>
+            </footer>
+         </div>
+            <!--footer section ends here-->
+            </body>
+        </html>
